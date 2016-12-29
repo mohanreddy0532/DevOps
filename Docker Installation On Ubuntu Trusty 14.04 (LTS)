@@ -11,4 +11,5 @@ apt-cache policy docker-engine;
 apt-get update;
 apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual;
 apt-get update;
+#Install Docker:
 apt-get install docker-engine;service docker start;docker run hello-world;docker --version;
