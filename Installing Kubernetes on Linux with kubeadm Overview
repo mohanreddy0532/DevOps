@@ -1,0 +1,6 @@
+Installing Kubernetes on Linux with kubeadm Overview:
+You will install the following packages on all the machines:
+Docker: the container runtime, which Kubernetes depends on. v1.11.2 is recommended, but v1.10.3 and v1.12.1 are known to work as well.
+Kubelet: the most core component of Kubernetes. It runs on all of the machines in your cluster and does things like starting pods and containers.
+Kubectl: the command to control the cluster once it’s running. You will only need this on the master, but it can be useful to have on the other nodes as well.
+Kubeadm: the command to bootstrap the cluster.
